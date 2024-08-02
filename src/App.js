@@ -46,7 +46,7 @@ function numberOfItems(){
 
 
   return (
-    <Router>
+    <Router basename="/React-Library-app">
       <div className="App">
         
         <Nav numberOfItems={numberOfItems()} />
